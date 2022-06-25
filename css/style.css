@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #204f87;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.hero{
+    background-image: url(../images/bunner_part.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.height{
+    min-height: 90vh;
+}
+.hero h1{
+    
+text-align: center;
+    
+text-transform: uppercase;
+    
+color: #fff;
+    
+font-size: 65px;
+}
+.icon{
+    
+color: #ffff;
+    
+position: absolute;
+    
+left: 50%;
+    
+bottom: 100px;
+    
+transform: translate(-50%);
+    
+font-size: 25px;
+    
+animation: updown 1s linear infinite;
+    
+animation-direction: alternate;
+}
+@keyframes updown {
+    0% {
+        bottom: 70px;
+    }
+    100% {
+        bottom: {
+            40px
+        }
+        ;
+    } 
+}
+.who_we_are{
+
+padding: 100px 0;
+}
+.who_we_are span{
+    
+display: block;
+    
+background-color: #f05328;
+    
+width: 50px;
+    
+height: 3px;
+}
+.who_we_are h1{
+    
+color: #204f87;
+    
+margin: 15px 0;
+    
+font-size: 30px;
+}
+.who_we_are p{
+    
+color: #b0b0b1;
+}
+.WHAT_WE_DO{
+
+background-color: #f7f8f8;
+
+padding: 50px 0;
+}
+
+.WHAT_WE_DO span{
+    
+display: block;
+    
+height: 3px;
+    
+width: 20px;
+    
+background-color: red;
+    
+margin: auto;
+}
+.WHAT_WE_DO h2{
+    
+color: #29387f;
+    
+font-size: 40px;
+    
+text-align: center;
+    
+margin:  15px 0;
+}
+.item{
+
+position: relative;
+}
+.item::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+1,28377e+83&0+0,1+87 */
+background: -moz-linear-gradient(top,  rgba(125,185,232,0) 0%, rgba(125,185,232,0.01) 1%, rgba(40,55,126,0.95) 83%, rgba(40,55,126,1) 87%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(125,185,232,0.01) 1%,rgba(40,55,126,0.95) 83%,rgba(40,55,126,1) 87%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(125,185,232,0.01) 1%,rgba(40,55,126,0.95) 83%,rgba(40,55,126,1) 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+
+    transition: .4s all ease-in-out;
+}
+.item:hover::before{
+    height: 100%;
+}
+
+
+.asilo{
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: .4s all ease-in-out
+}
+.item:hover .asilo{
+    opacity: 1;
+    top: 60%;
+}
+.asilo h2{
+
+color: #ffff;
+
+font-size: 30px;
+}
+.icon_m{
+
+position: absolute;
+
+left: 45%;
+
+bottom: 50px;
+
+transform: translateX(-50%);
+
+color: #fff;
+
+font-size: 25px;
+opacity: 0;
+transition: .4s all ease-in-out;
+}
+.item:hover .icon_m{
+    opacity: 1;
+    left: 50%;
+}
+.icon_m i{
+    
+}
+.WHAT_WE_DO{
+    background-image: url(../images/backgraund-lawyer_pro.png);
+    background-size: cover;
+    background-color: #f7f8f8;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 66%;
+}
+.OUR_ATTORNEYS{
+    background-image: url(../images/last-lawyer_pro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.OUR_ATTORNEYS span{
+
+width: 50px;
+
+height: 3px;
+
+display: block;
+
+background-color: red;
+
+margin-bottom: 5px;
+}
+.OUR_ATTORNEYS h2{
+
+    color: #fff;font-size: 54px;
+}
+.OUR_ATTORNEYS p{
+    
+color: #929dcf;
+}
+.OUR_ATTORNEYS h4{
+    
+font-size: 20px;
+    
+color: #f2682d;
+    
+text-transform: uppercase;
+}
+.aldert{
+    
+position: relative;
+}
+.ESQ{
+
+position: absolute;
+    
+left: 50%;
+    
+bottom: 50px;
+    
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: .4s all ease-in-out;
+}
+.aldert:hover .ESQ{
+    opacity: 1;
+    bottom: 70px;
+}
+.ESQ h2{
+    
+font-size: 23px;
+    
+
+}
+
+.aldert::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+1,28377e+83&0+0,1+87 */
+background: -moz-linear-gradient(top,  rgba(125,185,232,0) 0%, rgba(125,185,232,0.01) 1%, rgba(40,55,126,0.95) 83%, rgba(40,55,126,1) 87%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(125,185,232,0.01) 1%,rgba(40,55,126,0.95) 83%,rgba(40,55,126,1) 87%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(125,185,232,0.01) 1%,rgba(40,55,126,0.95) 83%,rgba(40,55,126,1) 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+transition: .4s all ease-in-out;
+}
+.aldert:hover::before{
+    height: 100%;
+}
+
+
+.The_Languages{
+    
+padding: 100px;
+}
+.The_Languages span{
+    
+display: block;
+    
+background-color: red;
+    
+width: 65px;
+    
+height: 5px;
+    
+margin: auto;
+}
+.The_Languages h3{
+    
+color: #3d4685;
+    
+text-transform: uppercase;
+    
+margin: 9px;
+    
+text-align: center;
+    
+font-size: 37px;
+    
+margin-bottom: 50px;
+}
+.country{
+
+}
+.country h4{
+
+color: #444c86;
+
+font-weight: 700;
+}
+
+.country p{
+
+}
+
+.country p{
+
+color: #b1b0b1;
+}
+
+.country h5{
+
+color: #f2682d;
+
+font-size: 15px;
+
+font-weight: 700;
+}
+.CONTACT{
+
+    background-color: #28377e;
+}
+.CONTACT span{
+    
+}
+.CONTACT h2{
+    
+}
+.CONTACT input{
+
+border: none;
+
+color: #fff;
+
+margin-bottom: 15px;
+
+border-bottom: 1px solid #4759a7;
+
+background: transparent;
+}
+.CONTACT form input[type="submit"]{
+    
+background-color: #f2682d;
+    
+padding: 7px 55px;
+    
+margin-top: 20px;
+    
+border-radius: 3px;
+}
+.date{
+    background-color: #0c1234;
+}
+.footer{
+
+}
+.footer p{
+
+color: #28377e;
+}
+.k{
+    
+display: flex;
+    
+justify-content: space-between;
+}
+.icon_z ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+
+align-items: center;
+}
+.icon_z ul li{
+
+margin-left: 15px;
+}
+.icon_z ul li a{
+
+}
+.icon_z ul li a i{
+
+color: #9eaaaa;
+}
+
+
+
+
+
+
+
+
+
